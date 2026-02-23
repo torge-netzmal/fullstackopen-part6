@@ -10,6 +10,15 @@ const getAll = async () => {
   return await response.json()
 }
 
+const updateOne = async (id, anecdote) => {
+  const response = await fetch(`${baseUrl}/${id}`, {
+    method: 'PUT',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(anecdote),
+  })
+  return await response.json()
+}
+
 
 const createNew = async (content) => {
 
@@ -29,4 +38,4 @@ const createNew = async (content) => {
 }
 
 
-export default {getAll, createNew}
+export default {getAll, createNew, updateOne}

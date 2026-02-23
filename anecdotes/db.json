@@ -33,6 +33,36 @@
     {
       "id": "27ae",
       "content": "Test",
+      "votes": 1
+    },
+    {
+      "id": "dca1",
+      "content": "Test3",
+      "votes": 2
+    },
+    {
+      "id": "1ea4",
+      "content": "Test22",
+      "votes": 4
+    },
+    {
+      "id": "0233",
+      "content": "Mimi is cool",
+      "votes": 0
+    },
+    {
+      "id": "511e",
+      "content": "Hallo",
+      "votes": 0
+    },
+    {
+      "id": "be50",
+      "content": "tsst",
+      "votes": 0
+    },
+    {
+      "id": "1b6b",
+      "content": "Test",
       "votes": 0
     }
   ]
